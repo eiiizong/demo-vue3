@@ -13,11 +13,9 @@ export default defineComponent({
       .catch((err) => {
         console.log('err: ', err)
       })
-  },
+  }
 })
 </script>
-
-
 
 <style>
 #app {
