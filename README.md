@@ -20,3 +20,32 @@
 ├── vite.config.ts                 // Vite 配置文件
 └── package.json
 ```
+
+
+### Header
+Header 部分包括三个字段 type（必需）、scope（可选）和 subject（必需）。
+<type>(<scope>): <subject>
+复制代码
+type
+type 用于说明 commit 的提交类型（必须是以下几种之一）。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
