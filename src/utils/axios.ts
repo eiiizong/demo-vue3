@@ -2,7 +2,7 @@
  * @Author: zengxm
  * @Date: 2021-11-19 17:08:50
  * @LastEditors: zengxm
- * @LastEditTime: 2021-11-19 17:08:50
+ * @LastEditTime: 2021-11-22 17:34:18
  * @Description: change
  * @FilePath: /demo-vue3/src/utils/axios.ts
  */
@@ -44,7 +44,7 @@ axios.interceptors.response.use(
       const code = error.response.status
       const msg = error.response.data.message
       ElMessage.error(`Code: ${code}, Message: ${msg}`)
-      console.error(`[Axios Error]`, error.response)
+      // console.error(`[Axios Error]`, error.response)
     } else {
       ElMessage.error(`${error}`)
     }

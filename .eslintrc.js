@@ -5,9 +5,9 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/essential',
+    'plugin:vue/vue3-strongly-recommended',
     'airbnb-base',
-    'plugin:prettier/recommended' // 添加 prettier 插件
+    'plugin:prettier/recommended' // 添加 prettier 插件 解决冲突
   ],
   parserOptions: {
     ecmaVersion: 13,
@@ -15,5 +15,25 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['vue', '@typescript-eslint'],
-  rules: {}
+  rules: {
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'import/no-absolute-path': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'vue/no-multiple-template-root': 'off',
+    'no-param-reassign': [
+      'error',
+      {
+        props: true,
+        ignorePropertyModificationsFor: ['state', 'config']
+      }
+    ],
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['Home', 'Axiosaaa', 'Vuex']
+      }
+    ],
+    'no-console': ['error', { allow: ['warn', 'error'] }]
+  }
 }

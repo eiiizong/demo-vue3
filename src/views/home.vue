@@ -8,10 +8,10 @@ export default defineComponent({
     axios
       .get('/users/XPoet')
       .then((res) => {
-        console.log('res: ', res)
+        console.warn('res: ', res)
       })
       .catch((err) => {
-        console.log('err: ', err)
+        console.error('err: ', err)
       })
   }
 })

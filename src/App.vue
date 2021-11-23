@@ -11,5 +11,6 @@ import HelloWorld from './components/HelloWorld.vue'
 <style lang="scss">
 #app {
   width: 100%;
+  background-color: #f0f;
 }
 </style>
