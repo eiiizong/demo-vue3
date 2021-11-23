@@ -2,7 +2,7 @@
  * @Author: zengxm
  * @Date: 2021-11-23 16:51:28
  * @LastEditors: zengxm
- * @LastEditTime: 2021-11-23 16:52:48
+ * @LastEditTime: 2021-11-23 17:12:23
  * @Description: change
  * @FilePath: /demo-vue3/.cz-config.js
  */
@@ -80,7 +80,7 @@ module.exports = {
   allowBreakingChanges: ['feat', 'fix'],
 
   // 跳过要询问的步骤
-  // skipQuestions: ['body', 'footer'],
+  skipQuestions: ['body', 'footer'],
 
   // subject 限制长度
   subjectLimit: 100,

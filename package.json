@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --open",
+    "commit": "git cz",
     "prettier": "npx prettier --write .",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
