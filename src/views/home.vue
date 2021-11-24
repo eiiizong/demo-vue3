@@ -1,4 +1,5 @@
 <template>home</template>
+
 <script lang="ts">
 import { defineComponent } from 'vue'
 import axios from '../utils/axios'
