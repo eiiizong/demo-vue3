@@ -2,11 +2,11 @@
   "name": "demo",
   "version": "0.0.0",
   "scripts": {
+    "c": "git cz",
     "dev": "vite --open",
-    "commit": "git cz",
-    "prettier": "npx prettier --write .",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
+    "prettier": "npx prettier --write .",
     "prepare": "husky install",
     "test": "jest"
   },
