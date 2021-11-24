@@ -36,6 +36,7 @@ module.exports = {
       }
     ],
     // 项目代码中不允许出现 console.log 代码
-    'no-console': ['error', { allow: ['warn', 'error'] }]
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-unused-vars': 'off'
   }
 }
