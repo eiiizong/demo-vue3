@@ -21,7 +21,7 @@
 └── package.json
 ```
 
-https://eiiizong.github.io/demo-vue3/dist
+https://eiiizong.github.io/demo-vue3
 
 ### Header
 Header 部分包括三个字段 type（必需）、scope（可选）和 subject（必需）。

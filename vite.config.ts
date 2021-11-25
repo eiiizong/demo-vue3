@@ -40,6 +40,6 @@ export default defineConfig(({ command }) => {
   return {
     // build 独有配置
     ...config,
-    base: '/<REPO>/' // 设置打包路径
+    base: '/demo-vue3/' // 设置打包路径
   }
 })
