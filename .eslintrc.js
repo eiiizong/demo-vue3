@@ -5,7 +5,7 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/vue3-strongly-recommended',
+    'plugin:vue/vue3-essential',
     'airbnb-base',
     'plugin:prettier/recommended', // 添加 prettier 插件 解决冲突
     'plugin:jest/recommended'
@@ -32,7 +32,8 @@ module.exports = {
     'vue/multi-word-component-names': [
       'error',
       {
-        ignores: ['Home', 'Axiosaaa', 'Vuex']
+        // 忽略的文件
+        ignores: []
       }
     ],
     // 项目代码中不允许出现 console.log 代码
