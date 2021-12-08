@@ -1,0 +1,9 @@
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  overflow: auto;
+  font-size: $font-size;
+}

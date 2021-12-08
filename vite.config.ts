@@ -27,6 +27,13 @@ export default defineConfig(({ command }) => {
       //     rewrite: (path) => path.replace('/api/', '/')
       //   }
       // }
+    },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "./src/styles/scss/variables/index.scss";' // 添加公共样式
+        }
+      }
     }
   }
 

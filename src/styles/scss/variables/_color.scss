@@ -1,0 +1,15 @@
+
+$primary: #ff38de !default; // 主题色
+
+$color-base:$primary !default; // 主题色
+
+$color-title: #001944 !default; // 标题字体颜色
+
+// 文本
+$color: #3d424d !default; // 正常
+$color-active: $primary !default; // 高亮
+$color-placeholder: #a1a7b3 !default; // 提示
+$color-input-placeholder: #7a7a7a !default; // 提示
+
+// input 输入框
+$color-input-disabled: #ccc !default; // 禁用

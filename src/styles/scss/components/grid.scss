@@ -1,0 +1,22 @@
+.d-g {
+  display: grid !important;
+  &.g-t-c,
+  &.g-t-c-1 {
+    grid-template-columns: repeat(1, 100%);
+  }
+  &.g-t-c-2 {
+    grid-template-columns: repeat(2, 50%);
+  }
+  &.g-t-c-3 {
+    grid-template-columns: repeat(3, 33.333333%);
+  }
+  &.g-t-c-4 {
+    grid-template-columns: repeat(4, 25%);
+  }
+  &.g-t-c-5 {
+    grid-template-columns: repeat(5, 20%);
+  }
+}
+.d-ig {
+  display: inline-grid !important;
+}
